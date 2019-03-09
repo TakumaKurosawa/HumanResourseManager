@@ -1,0 +1,36 @@
+
+
+.form-signin {
+    width: 100%;
+    max-width: 620px;
+    padding: 3em 3em 1em;
+    margin: auto;
+    background: #fafafa;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 20px 60px -10px;
+}
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input {
+    margin-bottom: -1px;
+    border-radius: 0;
+}
+.form-signin .form-control-first {
+    border-top-right-radius: .25rem;
+    border-top-left-radius: .25rem;
+}
+.form-signin .form-control-last {
+    border-bottom-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+.form-signin button {
+    margin-top: 10px;
+}
